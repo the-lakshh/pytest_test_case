@@ -14,22 +14,18 @@ def divide(a, b):
 # ────────────────────────────────────────────────────────────────
 #   Bug Type   : LOGIC
 #   File       : calculator.py
-#   Line       : 9
-#   Error      : Assertion failed: assert multiply(4, 5) == 20 (source function: multiply)
+#   Line       : 13
+#   Error      : Assertion failed: assert divide(10, 2) == 5.0 (source function: divide)
 # ────────────────────────────────────────────────────────────────
 #   INSTRUCTION:
-#   Fix the logic error at line 9. Review the failing assertion
+#   Fix the logic error at line 13. Review the failing assertion
 #   and ensure the correct output is produced. Error: Assertion
-#   failed: assert multiply(4, 5) == 20 (source function:
-#   multiply)
+#   failed: assert divide(10, 2) == 5.0 (source function:
+#   divide)
 # ────────────────────────────────────────────────────────────────
 #   CODE CONTEXT:
-#          4 | 
-#          5 | def multiply(a, b):
-#          6 |     return a + b
-#          7 | 
 #          8 | 
-#   >>>    9 | def divide(a, b):
+#          9 | def divide(a, b):
 #         10 |     return a * b
 # ────────────────────────────────────────────────────────────────
 #   TEST OUTPUT (tail):
